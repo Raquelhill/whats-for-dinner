@@ -17,19 +17,19 @@ Module 1 - What's for dinner?
   - CSS
   - Atom
 ## Illustrations
-Use [<https://gifcap.dev/>](<https://gifcap.dev/>) to make GIFs
+![What's for dinner](https://user-images.githubusercontent.com/81186709/126913978-b6506ca4-2755-406a-a21c-102fb2115103.png)
+
 ## Install + Setup
-	- Clone the repository to your local machine
+    - Clone the repository to your local machine
     - `cd` into the project
     - Use `open index.html` to open the file on your browser
     - Find out What's for dinner.
 ## Challenges + Improvements
-	- My page does not scale as well as I would like it to.  
+    - My page does not scale as well as I would like it to.  
 ## Project Specs
     - The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
 ## Project Status
-
-This project is complete with three add-ons: Entire Meal Functionality, Error Handling and Clear Button, and User can add a recipe.
+    - This project is complete with three add-ons: Entire Meal Functionality, Error Handling and Clear Button, and User can add a recipe.
 ## Contributors
 
 This app was developed by:
