@@ -1,23 +1,39 @@
 # What's for Dinner?
+Module 1 - What's for dinner?
+## Table of Contents
+  - [Abstract](#abstract)
+  - [Technologies](#technologies)
+  - [Illustrations](#illustrations)
+  - [Install + Setup](#set-up)
+  - [Project Status](#project-status)
+  - [Project Specs](#project-specs)
+  - [Contributors](#contributors)
 
-## Overview
+## Abstract
+	In this project, you are able to request a suggestion for a side, main dish, dessert, or an entire meal.  If you do not like any of the suggestions you
+    are given, you can click on the add a recipe button to add something you do like to the respective array.  
+## Technologies
+  - Javascript
+  - CSS
+  - Atom
+## Illustrations
+Use [<https://gifcap.dev/>](<https://gifcap.dev/>) to make GIFs
+## Install + Setup
+	- Clone the repository to your local machine
+    - `cd` into the project
+    - Use `open index.html` to open the file on your browser
+    - Find out What's for dinner.
+## Challenges + Improvements
+	- My page does not scale as well as I would like it to.  
+## Project Specs
+    - The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+## Project Status
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+This project is complete with three add-ons: Entire Meal Functionality, Error Handling and Clear Button, and User can add a recipe.
+## Contributors
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+This app was developed by:
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+- [Raquel Hill](https://github.com/Raquelhill)
 
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+Project spec provided by the [Turing School of Software and Design.](https://turing.edu/)

@@ -4,7 +4,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <header>
+      <h1>What's for Dinner?</h1>
+      <button class="addRecipeBtn">ADD A RECIPE</button>
+    </header>
+    <main>
+      <section class="left-box">
+        <h1>What are you looking for?<span>*</span></h1>
+          <form class="radio-buttons">
+            <input type="radio" name="group1" id="side"> Side</input><br>
+            <input type="radio" name="group1" id="main"> Main Dish</input><br>
+            <input type="radio" name="group1" id="dessert"> Dessert</input><br>
+            <input type="radio" name="group1" id="meal"> Entire Meal</input><br><br>
+            <div>
+              <button class="lets-cook">LET'S COOK!</button>
+            </div>
+          </form>
+      </section>
+      <section class="right-box">
+        <img class="cookPot" id="cookPot" src="./assets/cookpot.svg" alt="Image of a soup pot">
+        <h4 class="you-should-make hidden" id="maketxt">You should make:</h4>
+        <div>
+          <h1 class="food-suggestion hidden" id="foodtxt"></h1>
+        </div>
+        <div>
+          <button class="clear-food hidden">CLEAR</button>
+        </div>
+      </section>
+    </main>
+    <footer class ="footer hidden">
+      <form class="add-new-recipe">
+        <label for="recipe-type">Recipe Type:</label><br>
+        <select class="recipe-selector" id="meal-type" name="meal-type">
+          <option value="side">Side</option>
+          <option value="main">Main Dish</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="meal-input" name="meal-input">
+        <button class="add-new-button" id="add new">ADD NEW</button>
+      </form> 
+    </footer>
   </body>
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="Meal.js"></script>
 </html>
